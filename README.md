@@ -4,7 +4,8 @@
 
   
 
-![image](https://github.com/ARMIS2111/real-time-water-temperature-data-pipeine/assets/101886753/2807d5c5-bc95-4b70-a07b-daaa437457a8)
+![image](https://github.com/ARMIS2111/Real-Time-Water-Sensor-Data-Analysis/assets/101886753/3df8577a-8313-420d-af44-acf6b31cf10a)
+
 
 
 -   ### API
@@ -54,7 +55,8 @@
 	-   The dashboard is implemented in the bokeh visualization library and data is streamed using Kafka Consumer under topic CleanSensorData.
 	    
 
-		![image](https://github.com/ARMIS2111/real-time-water-temperature-data-pipeine/assets/101886753/e514b6cb-c06a-4734-a783-7afde124962e)
+		![image](https://github.com/ARMIS2111/Real-Time-Water-Sensor-Data-Analysis/assets/101886753/1f75d5a5-70d5-4222-88f5-e01592ec3ca1)
+
 
 
   
