@@ -86,8 +86,7 @@ If your kafka installation folder is not added to path, navigate to the director
 
 -   #### Create CleanSensorData Topic
     
-
-  		bin/kafka-topics.sh --create --topic CleanSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+		bin/kafka-topics.sh --create --topic CleanSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
 -  #### View RawSensorData Topic
     
 
@@ -103,11 +102,11 @@ If your kafka installation folder is not added to path, navigate to the director
 -  #### Start the MongoDB server 
     
 
-  		 sudo systemctl enable mongod.service
+		sudo systemctl enable mongod.service
 -  #### Start the API (port: 3030)
     
 
-  		 python sensor.py
+		python sensor.py
   
 
 -  #### Push Data From API Stream to Kafka Topic: RawSensorData
@@ -127,6 +126,4 @@ If your kafka installation folder is not added to path, navigate to the director
   
 
 -   #### Real-Time DashBoard - Visualization
-    
-
-		bokeh serve --show dashboard.py
+  		bokeh serve --show dashboard.py
