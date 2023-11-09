@@ -79,7 +79,7 @@ If your kafka installation folder is not added to path, navigate to the director
 -   #### Create RawSensorData Topic
     
 
-		   bin/kafka-topics.sh --create --topic RawSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+		bin/kafka-topics.sh --create --topic RawSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
     
 
   
@@ -87,7 +87,7 @@ If your kafka installation folder is not added to path, navigate to the director
 -   #### Create CleanSensorData Topic
     
 
-		    bin/kafka-topics.sh --create --topic CleanSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+  		bin/kafka-topics.sh --create --topic CleanSensorData --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
 -  #### View RawSensorData Topic
     
 
